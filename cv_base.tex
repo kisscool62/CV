@@ -1,0 +1,226 @@
+%!TEX TS-program = xelatex
+\documentclass[]{bankcy}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Pascal}{AUREGAN}
+      {Certified Scrum Master}
+
+\fcolorbox{white}{white}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+Driven by computer science and projects, convinced by Scrum to facilitate team work and goal reaching. I love to learn and I take any new challenge as a chance to bring my competence to the team and to learn something new.
+}}
+
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Personal}
+    rue du 31 décembre, 27
+    1207 Genève
+    33 ans    
+    UE resident
+    ~
+  \section{Tel, Skype, Mail}
+    +33 6 81 88 70 45
+    kisscool62
+    \href{mailto:pascal.auregan@gmail.com}{pascal.auregan@\\gmail.com}
+    ~
+  \section{Git, LinkedIn}
+    \href{https://github.com/kisscool62}{github.com/kisscool62}
+    \href{https://fr.linkedin.com/in/pascal-auregan-682a8214}{pascal-auregan-682a8214}
+    ~
+   \section{Programming Languages}
+   Java, R, ruby, Javascript, HTML, SQL, NoSQL, Latex  
+    ~
+    \section{Design}
+    TDD, DDD, Design patterns, Relational and NoSQL Databases
+    ~
+   \section{Frameworks}
+    R shiny, Spring 3.x, Hibernate 4, Ruby on Rails, AngularJS  
+    ~
+    \section{Third components}
+    Oracle, MongoDB, IBM Platform Symphony, Spark, Postgres
+    ~
+    \section{Operating Systems}
+    Windows >= 3.1, Linux (Debian, Ubuntu, Mint, Fedora, RedHat), Unix(Solaris, FreeBSD, OpenBSD), MacOS
+    ~
+  \section{Personal Skills}
+  Team player, curious, self training, autonomous, love to facilitate team work
+    ~
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {2013 - 2016}
+    {Scrum Master}
+    {CEPH, Banque De France for ECB, Paris, France}
+    {Scrum Master on a JEE project for Eurosystem. This project is run jointly with Bundesbank. I have to deal with 4 developers + 1 architect, 2 business analysts and 3 testers.
+The goal of the project is to give a unique price for all elligible assets (collateral management) and to send this price to all eurosystem central banks. 
+I'm also involved in solving issues on grid computing part of the application (IBM symphony).\\
+\begin{itemize}
+\item Scrum Master
+\item Technical referent / technical Project manager
+\item Coordination for business and testers teams
+\item Contribution to weekly 2 Central Banks meetings
+\item Responsible for continuous integration and code quality
+\item Responsible for computing grid
+\item Planning of the releases
+\item Facilitator for the team (working environment)
+\item Responsible for the level 3 technical support
+\item User Project Manager for the technical migration of the Banque De France Java stack. New target = REST + AngularJS
+\item Hiring providers
+\end{itemize}
+}
+\entry
+    {2009 - 2016}
+    {IT Developer / Software engineer}
+    {CEPH, Banque De France for ECB, Paris, France}
+    {I began as a developer on this project (core and view layer). I'm now a POC developer and the technical referent on this project.\\
+     I'm also a R developer to investigate/analyse grid (IBM Symphony) performance issues from log basis.\\
+     \begin{itemize}
+         \item Technical stack: JEE, Java 1.6, Spring 4, hibernate 4.3, JPA, Spring webflow + JSF + richfaces and then Spring MVC + AngularJS, Camel, Oracle 11g, Websphere \& maven tomcat plugin for dev, maven 3, sun solaris.
+         \item Investigating on performance issues, using Visual VM, JProfiler and factual analysis.
+         \item Use of software factory: Subversion, Bamboo and then Jenkins, Nexus and then Artifactory, SonarCube.
+      \end{itemize}
+}
+\end{entrylist}
+\newpage
+\begin{entrylist}
+    \entry
+    {2006 - 2009}
+    {IT Developer}
+    {Cyrus Conseil, Paris, France}
+    {Cyrus Conseil is the leader of independant wealth management, familly office in France. We (I and two other trainees) first arrived to make automation in VBA. We then convinced the direction to build a whole information system. We worked as a start-up in the company and we hired up to 5 trainees.\\
+\begin{itemize}
+\item Business Requirement collection
+\item Database design in MS SQLServer and then MySQL
+\item Development of ruby web scrappers to get the daily data from 40 price providers and product providers
+\item Development of ruby on rails applications to display the data to the direction, conseilors, backoffice
+\item Development of C\# application to create the reports for the clients
+\item Contribution to agile management in this team with the two other managers
+\item Hiring trainees
+\item Buy, install, configure debian server
+\end{itemize}    
+    }
+    \entry
+    {2002\\ 2 months}
+    {Internship}
+    {INRA, Jouy en Josas, France}
+    {Inside the technical support, I had to help the users solving their computer issues.
+The internship period matched with the work period of changing the BNC plugs by RJ45 plus. I had the opportunity to contribute to this migration.
+\begin{itemize}
+\item Technical support for non IT users
+\item Listing of the network plugs
+\item Wiring laboratories
+\item Writing of documentation of the use of Norton Antivirus for non IT users
+\item Retrieving data on Macintosh classic, windows 98, UNIX servers
+\end{itemize}
+}
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {Since 2009\\ night classes}
+    {Master's Degree in Computer Engineering, Data management}
+    {Conservatoire National des Arts et Métiers, Paris, France}
+    {Curriculum Networking and Multimedia.\\
+    Main subjects: Statistics, mathematics, Artificial Intelligence, ETL, NoSQL Database, Neural Networks, Operational Research\\}
+  \entry
+    {2006 - 2007}
+    {Bachelor's Degree in Mathematics and Computer Engineering}
+    {UPMC Paris VI, Paris, France}
+    {Main subjects: Mathematics and random variable generation, Programming in Java, CAML, C\#, C, matlab, Dr Scheme\\}
+  \entry
+    {2004 - 2006}
+    {Bachelor's Degree in Mathematics}
+    {UPMC Paris VI, Paris, France}
+    {Main subjects: Mathematics, linear algebra, probabilities and random variable generation, mathematical analysis\\}
+  \entry
+    {2001 - 2004}
+    {Master's Degree}
+    {EPITA, Kremlin Bicêtre, France}
+    {Main subjects: Programming in C, C++, Pascal, Delphi, Algorithmics\\}
+  \entry
+    {2000 - 2001}
+    {Bachelor's Degree}
+    {UPJV, Amiens, France}
+    {Main subjects: Biology and Chemistry\\}
+\end{entrylist}
+\begin{aside}
+~
+~
+~ 
+~
+\section{Languages}
+    \textbf{French}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{English}\includegraphics[scale=0.40]{img/3stars.png}
+\end{aside}
+\newpage
+\section{Certifications \& trainings}
+\begin{entrylist}
+  \entry
+    {2015 - 2016}
+    {PMI-ACP Agile Certified Practitioner}
+    {Project Management Institute}
+    {\emph{Certification on going. Giving all the keys of Agile most common methods, their best way to apply them following the company and the organizational assets}}
+  \entry
+    {2015}
+    {Scrum Master CSM}
+    {Scrum Alliance hosted by Xebia}
+    {\emph{Trained by Jeff Sutherland and Harvey Wheaton on Scrum Framework. Useful to have answers and best practices following my experience of Scrum}}
+  \entry
+  {2013}
+  {English level}
+  {Bright Test \& Bulat}
+  {3.5 Bright test, B2 CECR}   
+  \entry
+    {2014 - 2015}
+    {Data Science Specialization}
+    {Johns Hopkins University hosted by Coursera platform}
+    {\emph{Giving all the keys of data science. how to apply known mathematics and computer science fields to the data science. Machine learning, R programming, regression models, cleaning data, data display}}
+  \entry
+    {2014}
+    {CAPM: Certified Assistant Project Manager}
+    {Project Management Institute}
+    {\emph{Giving all the knowledge of Project Management following the PMBOK. Same training than PMP but examination based on knowledge rather than practice}}
+  \entry
+    {2012}
+    {Domain Driven Design}
+    {Zenika}
+    {\emph{Domain Driven Design based on Eric Evans book, framework building, code refactoring}}
+  \entry
+    {2011}
+    {Spring Framework rich web 2.5}
+    {SpringSource hosted by Zenika}
+    {\emph{Spring framework for web in details : Spring MVC, Spring webflow}}
+  \entry
+    {2010}
+    {Spring Framework rich web 2.5}
+    {SpringSource hosted by Zenika}
+    {\emph{Spring framework core}}
+
+\end{entrylist}
+
+
+
+\end{document}
